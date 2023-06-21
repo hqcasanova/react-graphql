@@ -1,20 +1,28 @@
+@import 'scss/variables.scss';
+
 .movie {
-  margin: 1rem;
+  margin: 2.25rem 1rem;
   padding: 1rem;
-  background-color: #230052;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background-color: $black;
+  box-shadow: 0 2px 8px rgba($black, 0.26);
   border-radius: 12px;
   text-align: center;
-  color: white;
+  color: $white;
 
-  h2 {
-    font-size: 2rem;
-    color: #f7e702;
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  h3 {
-    color: #eccf77;
-    margin: 0;
-    font-size: 1rem;
+  &__date {
+    font-size: 1.1rem;
+  }
+
+  &__opening {
+    margin-top: -1.5rem;
+    line-height: 1.8rem;
+    transform-origin: bottom center;
+    transform: perspective(12rem) rotateX(14deg);
   }
 }

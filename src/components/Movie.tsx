@@ -13,9 +13,16 @@ function Movie({
 }: Props) {
   return (
     <li className={classes.movie}>
-      <h2>{ title }</h2>
-      <h3>{ releaseDate }</h3>
-      <p>{ openingText }</p>
+      <h2 className={classes.movie__title}>
+        { title }
+        <time
+          dateTime={releaseDate}
+          className={classes.movie__date}
+        >
+          { releaseDate }
+        </time>
+      </h2>
+      <p className={classes.movie__opening}>{ openingText }</p>
     </li>
   );
 }

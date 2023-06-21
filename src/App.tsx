@@ -1,6 +1,6 @@
 import useFetch from './hooks/useFetch';
 import MoviesList from './components/MoviesList';
-import './App.css';
+import classes from './App.module.scss';
 
 function App() {
   const {
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <section>
+      <section className={classes.app__section}>
         <button
           type='button'
           onClick={fetchData}
@@ -27,7 +27,8 @@ function App() {
           Fetch Movies
         </button>
       </section>
-      <section>
+
+      <section className={classes.app__section}>
         { childElement }
       </section>
     </>
