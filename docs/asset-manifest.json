@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-graphql/static/css/main.b81a7dcf.css",
-    "main.js": "/react-graphql/static/js/main.05167637.js",
+    "main.css": "/react-graphql/static/css/main.ff5b47fd.css",
+    "main.js": "/react-graphql/static/js/main.ce86384d.js",
     "index.html": "/react-graphql/index.html",
-    "main.b81a7dcf.css.map": "/react-graphql/static/css/main.b81a7dcf.css.map",
-    "main.05167637.js.map": "/react-graphql/static/js/main.05167637.js.map"
+    "main.ff5b47fd.css.map": "/react-graphql/static/css/main.ff5b47fd.css.map",
+    "main.ce86384d.js.map": "/react-graphql/static/js/main.ce86384d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b81a7dcf.css",
-    "static/js/main.05167637.js"
+    "static/css/main.ff5b47fd.css",
+    "static/js/main.ce86384d.js"
   ]
 }
