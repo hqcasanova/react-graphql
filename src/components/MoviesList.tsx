@@ -13,6 +13,7 @@ function MovieList({ movies }: Props) {
         movies.length > 0
           ? movies.map((movie) => (
             <Movie
+              className={classes['movies-list__item']}
               key={movie.id}
               title={movie.title}
               releaseDate={movie.releaseDate}

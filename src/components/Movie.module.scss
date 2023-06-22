@@ -1,18 +1,24 @@
 @import 'scss/variables.scss';
 
 .movie {
-  margin: 2.25rem 1rem;
+  max-width: 36rem;
+  margin: 2.5rem 1rem;
   padding: 1rem;
-  background-color: $black;
-  box-shadow: 0 2px 8px rgba($black, 0.26);
+  background-color: rgba($black, 0.7);
   border-radius: 12px;
   text-align: center;
   color: $white;
 
-  &__title {
+  &__heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    margin-right: 1rem;
+    font-family: 'Star Jedi';
   }
 
   &__date {
@@ -20,9 +26,11 @@
   }
 
   &__opening {
-    margin-top: -1.5rem;
-    line-height: 1.8rem;
-    transform-origin: bottom center;
-    transform: perspective(12rem) rotateX(14deg);
+    @media (min-width: 768px) {
+      margin-top: -1.5rem;
+      line-height: 1.8rem;
+      transform-origin: bottom center;
+      transform: perspective(12rem) rotateX(14deg);
+    }
   }
 }

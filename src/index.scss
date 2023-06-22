@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 @import 'scss/variables.scss';
 
+@font-face {
+  font-family: 'Star Jedi';
+  src: url('assets/StarJedi.woff2') format('woff2'),
+    url('assets/StarJedi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 h1, h2 {
   color: $primary;
 }

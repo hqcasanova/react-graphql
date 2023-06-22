@@ -38,7 +38,7 @@ function useFetch({
   options = GRAPHQL_OPTS,
   parseFunc = parser,
 }: Props = {}) {
-  const [movies, setMovies] = useState<Movie[]>([]);
+  const [movies, setMovies] = useState<Movie[] | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 

@@ -10,10 +10,14 @@ function App() {
     fetchData,
   } = useFetch();
 
-  let childElement = <p>Loading...</p>;
-  if (!isLoading && !error) {
+  let childElement;
+  const btnClass = `
+    ${classes.app__btn} 
+    ${isLoading ? classes['app__btn--loading'] : ''}
+  `;
+  if (movies && !isLoading && !error) {
     childElement = <MoviesList movies={movies} />;
-  } else if (error) {
+  } else if (movies && error) {
     childElement = <p>{ error }</p>;
   }
 
@@ -22,6 +26,7 @@ function App() {
       <section className={classes.app__section}>
         <button
           type='button'
+          className={btnClass}
           onClick={fetchData}
         >
           Fetch Movies

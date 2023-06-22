@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/react-graphql/static/css/main.ff5b47fd.css",
-    "main.js": "/react-graphql/static/js/main.ce86384d.js",
+    "main.css": "/react-graphql/static/css/main.a8d614eb.css",
+    "main.js": "/react-graphql/static/js/main.49798b99.js",
+    "static/media/edge.png": "/react-graphql/static/media/edge.9a36ecb26e468092f777.png",
+    "static/media/StarJedi.woff": "/react-graphql/static/media/StarJedi.b7426eee3ff9bb6bc7f1.woff",
+    "static/media/StarJedi.woff2": "/react-graphql/static/media/StarJedi.0e1df1aee0e4e23d0beb.woff2",
     "index.html": "/react-graphql/index.html",
-    "main.ff5b47fd.css.map": "/react-graphql/static/css/main.ff5b47fd.css.map",
-    "main.ce86384d.js.map": "/react-graphql/static/js/main.ce86384d.js.map"
+    "main.a8d614eb.css.map": "/react-graphql/static/css/main.a8d614eb.css.map",
+    "main.49798b99.js.map": "/react-graphql/static/js/main.49798b99.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff5b47fd.css",
-    "static/js/main.ce86384d.js"
+    "static/css/main.a8d614eb.css",
+    "static/js/main.49798b99.js"
   ]
 }

@@ -2,29 +2,38 @@
 
 .app {
   &__section {
-    margin: 2rem auto;
-    width: 90%;
-    max-width: 40rem;
+    margin: 2rem 0;
     text-align: center;
     border-radius: .5rem;
+  }
 
-    button {
-      font: inherit;
-      cursor: pointer;
-      background: $primary;
-      border: 1px solid $primary;
-      color: $black;
-      padding: 0.75rem 2rem;
-      border-radius: 2rem;
+  &__btn {
+    font: inherit;
+    cursor: pointer;
+    background: $primary;
+    border: 1px solid $primary;
+    color: $black;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
 
-      &:focus {
-        outline: none;
-      }
-
-      &:hover, &:active {
-        background-color: lighten($primary, 10%);
-        border-color: lighten($primary, 10%);
-      }
+    &--loading {
+      animation: btn-pulse 1s linear infinite alternate;
     }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover, &:active {
+      background-color: $white;
+      border-color: $white;
+    }
+  }
+
+  @keyframes btn-pulse {
+    100% {
+      background-color: $white;
+      border-color: $white;
+    } 
   }
 }
