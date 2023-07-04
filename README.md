@@ -1,4 +1,4 @@
-# react-graphql
+# react-graphql - Work in progress
 
 List of Star Wars films from a GraphQL version of SWAPI using React. Based on the "Sending Http Requests (e.g. Connecting to a Database)" chapter of Maximilian's popular [Udemy course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).
 
